@@ -1,0 +1,47 @@
+.section-movil{
+    max-width: 375px;
+    padding: 0 1rem ;
+}
+
+/****/
+.section-ram {
+ 
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section-ram__imagen{
+    width: 100%;
+}
+.section-ram__titulo{
+    font-size: var(--h2);
+    color: var(--texto);
+    margin-top: 1rem;
+}
+.section-ram__descripción{
+    font-size: var(--parrafo);
+    color: var(--texto);
+    margin-top: 1rem;
+    text-align: justify;
+}
+.section-ram__boton{
+    align-self: center;
+    text-decoration: none;
+
+    min-width: 10rem ;
+    height: 3rem;
+    border-radius: 5%;
+    background-color: var(--verde);
+    color: var(--texto);
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.uno{
+    text-align: center; 
+}
